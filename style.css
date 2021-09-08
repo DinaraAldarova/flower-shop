@@ -1,0 +1,280 @@
+body {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #AE7C78;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: "Playfair Display", "Montserrat", "Arial", sans-serif;
+    font-size: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+h2 {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 48px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+
+nav.main {
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+}
+
+nav.main .logo {
+    position: absolute;
+}
+
+nav.main li {
+    display: inline-block;
+}
+
+.intro p {
+    font-size: 24px;
+}
+
+.intro a.button,
+.popular .slider-item-description a.button {
+    display: block;
+    width: 285px;
+    height: 80px;
+    background: #D89999;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.intro img {
+    border-radius: 10px;
+}
+
+.intro dl div {
+    display: inline-block;
+    height: 80px;
+    width: 400px;
+    background-repeat: no-repeat;
+}
+
+.intro dl .delivery {
+    background-image: url("/img/delivery.svg");
+}
+
+.intro dl .fresh {
+    background-image: url("/img/bouquet.svg");
+}
+
+.intro dl .photo {
+    background-image: url("/img/camera.svg");
+}
+
+.intro dl dd {
+    margin-left: 0px;
+}
+
+.popular .slider-item-description h3,
+.popular .slider-item-description .price {
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.popular .slider-controls button {
+    width: 50px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.popular .slider-controls button.back {
+    background-image: url("/img/arrow-left.svg");
+}
+
+.popular .slider-controls button.next {
+    background-image: url("/img/arrow-right.svg");
+}
+
+.catalog-preview li {
+    display: inline-block;
+    width: 388px;
+    height: 442px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: rgba(174, 124, 120, 0.6);
+}
+
+.catalog-preview li.wedding {
+    background-image: url("/files/4.jpg");
+}
+
+.catalog-preview li.peonies {
+    background-image: url("/files/5.jpg");
+}
+
+.catalog-preview li.choose {
+    background-image: url("/files/6.jpg");
+}
+
+.catalog-preview h3 {
+    font-family: Playfair Display;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+}
+
+.discount {
+    background: #AE7C78;
+    color: #FFFFFF;
+}
+
+.discount p {
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.steps li {
+    display: inline-block;
+    height: 80px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+.steps li.order {
+    background-image: url("/img/order.svg");
+}
+
+.steps li.details {
+    background-image: url("/img/manager.svg");
+}
+
+.steps li.pay {
+    background-image: url("/img/bill.svg");
+}
+
+.steps li.delivery {
+    background-image: url("/img/delivery.svg");
+}
+
+.steps li h3 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.news p {
+    font-size: 24px;
+}
+
+.follow-us li {
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+
+.follow-us li.instagram {
+    background-image: url("/img/icon_instagram.svg");
+}
+
+.follow-us li.facebook {
+    background-image: url("/img/icon_facebook.svg");
+}
+
+.follow-us li.twitter {
+    background-image: url("/img/icon_twitter.svg");
+}
+
+.reviews {
+    border: 1px solid #AE7C78;
+    box-sizing: border-box;
+}
+
+.reviews blockquote {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
+
+.reviews blockquote cite {
+    font-style: inherit;
+}
+
+.contacts {
+    width: 1440px;
+    height: 644.1px;
+    background-image: url("/files/map.jpg");
+    background-repeat: no-repeat;
+}
+
+.contacts .info {
+    position: relative;
+    left: 222px;
+    top: 52px;
+    width: 316px;
+    height: 445px;
+    background-color: #F7FAFC;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+    padding: 35px;
+    padding-top: 40px;
+    box-sizing: content-box;
+}
+
+.contacts .info h2 {
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.contacts .info dt {
+    margin-top: 30px;
+}
+
+.contacts .info dd {
+    font-weight: 500;
+    margin-left: 0px;
+    margin-top: 17px;
+}
+
+.page-footer {
+    background: #AE7C78;
+    color: white;
+    padding-top: 30px;
+}
+
+.page-footer .logo {
+    position: relative;
+}
+
+.page-footer li {
+    display: inline-block;
+}
+
+.page-footer p {
+    font-size: 24px;
+}
