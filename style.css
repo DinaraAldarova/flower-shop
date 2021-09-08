@@ -83,15 +83,15 @@ nav.main li {
 }
 
 .intro dl .delivery {
-    background-image: url("/img/delivery.svg");
+    background-image: url("img/delivery.svg");
 }
 
 .intro dl .fresh {
-    background-image: url("/img/bouquet.svg");
+    background-image: url("img/bouquet.svg");
 }
 
 .intro dl .photo {
-    background-image: url("/img/camera.svg");
+    background-image: url("img/camera.svg");
 }
 
 .intro dl dd {
@@ -113,11 +113,11 @@ nav.main li {
 }
 
 .popular .slider-controls button.back {
-    background-image: url("/img/arrow-left.svg");
+    background-image: url("img/arrow-left.svg");
 }
 
 .popular .slider-controls button.next {
-    background-image: url("/img/arrow-right.svg");
+    background-image: url("img/arrow-right.svg");
 }
 
 .catalog-preview li {
@@ -131,15 +131,15 @@ nav.main li {
 }
 
 .catalog-preview li.wedding {
-    background-image: url("/files/4.jpg");
+    background-image: url("files/4.jpg");
 }
 
 .catalog-preview li.peonies {
-    background-image: url("/files/5.jpg");
+    background-image: url("files/5.jpg");
 }
 
 .catalog-preview li.choose {
-    background-image: url("/files/6.jpg");
+    background-image: url("files/6.jpg");
 }
 
 .catalog-preview h3 {
@@ -166,19 +166,19 @@ nav.main li {
 }
 
 .steps li.order {
-    background-image: url("/img/order.svg");
+    background-image: url("img/order.svg");
 }
 
 .steps li.details {
-    background-image: url("/img/manager.svg");
+    background-image: url("img/manager.svg");
 }
 
 .steps li.pay {
-    background-image: url("/img/bill.svg");
+    background-image: url("img/bill.svg");
 }
 
 .steps li.delivery {
-    background-image: url("/img/delivery.svg");
+    background-image: url("img/delivery.svg");
 }
 
 .steps li h3 {
@@ -198,15 +198,15 @@ nav.main li {
 }
 
 .follow-us li.instagram {
-    background-image: url("/img/icon_instagram.svg");
+    background-image: url("img/icon_instagram.svg");
 }
 
 .follow-us li.facebook {
-    background-image: url("/img/icon_facebook.svg");
+    background-image: url("img/icon_facebook.svg");
 }
 
 .follow-us li.twitter {
-    background-image: url("/img/icon_twitter.svg");
+    background-image: url("img/icon_twitter.svg");
 }
 
 .reviews {
@@ -227,7 +227,7 @@ nav.main li {
 .contacts {
     width: 1440px;
     height: 644.1px;
-    background-image: url("/files/map.jpg");
+    background-image: url("files/map.jpg");
     background-repeat: no-repeat;
 }
 
